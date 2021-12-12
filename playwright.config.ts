@@ -12,5 +12,6 @@ const config: PlaywrightTestConfig = {
     browserName: 'chromium',
     baseURL: 'https://demoqa.com',
   },
+  reporter: 'allure-playwright',
 };
 export default config;
