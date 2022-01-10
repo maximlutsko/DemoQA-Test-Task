@@ -1,4 +1,5 @@
 --------------------------- General information ---------------------------
+To install all dependencies please use the "npm i" command
 To run all autotests please use the "npx playwright test" command
 To run a specific autotest use the "npx playwright test tests/*test_name*" command (e.g.: npx playwright test tests/add.book.spec.ts)
 
