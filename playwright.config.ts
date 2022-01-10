@@ -4,7 +4,7 @@ import Api from './utilities/api';
 
 const config: PlaywrightTestConfig = {
   use: {
-    headless: true,
+    headless: false,
     launchOptions: {
         slowMo: 1000,
       },

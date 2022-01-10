@@ -1,0 +1,28 @@
+{
+  "name": "demoqa-test-task",
+  "version": "1.0.0",
+  "description": "--------------------------- General information ---------------------------\r To run all autotests please use the \"npx playwright test\" command\r To run a specific autotest use the \"npx playwright test tests/*test_name*\" command (e.g.: npx playwright test tests/add.book.spec.ts)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximlutsko/DemoQA-Test-Task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximlutsko/DemoQA-Test-Task/issues"
+  },
+  "homepage": "https://github.com/maximlutsko/DemoQA-Test-Task#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.17.2",
+    "allure-playwright": "^2.0.0-beta.14",
+    "playwright": "^1.17.2"
+  }
+}
